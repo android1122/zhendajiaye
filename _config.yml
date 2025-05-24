@@ -102,9 +102,3 @@ theme: acorn
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
-clean_css:
-  exclude: 
-    - '*.min.css'
-autoprefixer:
-  exclude:
-    - '*.min.css'
