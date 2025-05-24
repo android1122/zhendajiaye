@@ -1,0 +1,47 @@
+name: Pages
+
+on:
+  push:
+    branches:
+      - master # 默认路径
+
+jobs:
+  pages:
+    runs-on: ubuntu-latest #使用的系统
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3 #调用官方的脚本，直接复制我们的项目文件到系统 
+      - name: 安装node
+        uses: actions/setup-node@v2 #安装node环境
+        with:
+          node-version: "18"
+      - name: Cache NPM dependencies
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-npm-cache
+          restore-keys: |
+            ${{ runner.OS }}-npm-cache
+      - name: Install Dependencies
+        run: |
+          npm install
+          npm install hexo-autoprefixer
+          npm install hexo-clean-css
+          npm install hexo-generator-sitemap
+          npm install hexo-generator-baidu-sitemap
+          npm un hexo-renderer-marked
+          npm i hexo-renderer-markdown-it-plus
+          npm install hexo-markmap
+          npm install hexo-theme-next
+          npm install hexo-word-counter
+          npm install hexo-related-posts
+      - name: Build
+        run: npm run build
+      - name: Deploy
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+          external_repository: android1122/qiye
+          publish_branch: main  # default: gh-pages
+          publish_dir: ./public
