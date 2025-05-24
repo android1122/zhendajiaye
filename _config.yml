@@ -96,9 +96,26 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: acorn
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+clean_css:
+  exclude: 
+    - '*.min.css'
+autoprefixer:
+  exclude:
+    - '*.min.css'
+sitemap:
+  path: 
+    - sitemap.xml
+    - sitemap.txt
+  template: ./sitemap_template.xml
+  template_txt: ./sitemap_template.txt
+  rel: false
+  tags: true
+  categories: true
+baidusitemap:
+  path: baidusitemap.xml
