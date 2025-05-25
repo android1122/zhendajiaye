@@ -9,14 +9,14 @@
 - name: 室内堆料场
   en_name: 
   description: 支持代加工，仓储空间合理
-  cover: /images/sample/1.png
+  cover: https://android1122.github.io/qiye/images/sample/1.png
   link: 
   preview: 
 
 - name: 样品展示
   en_name: 
   description: 下单提供测试样品，节省客户时间
-  cover: /images/sample/mydesk.png
+  cover: https://android1122.github.io/qiye/images/sample/mydesk.png
   link: 
   preview: 
 
