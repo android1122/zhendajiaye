@@ -1,26 +1,25 @@
 # Header
 menu:
   首页: /
-  画廊: /gallery
   案例: /stories
   新闻: /archives
-  关于: /about
+  关于我们: /about
 
 # Content
-excerpt_link: 阅读全文111啊啊
+excerpt_link: 阅读全文
 
-# MIIT ICP/IP/DOMAIN
+# 备案信息等
 beian: 
   enable: false
   number: 
   url: https://beian.miit.gov.cn/
 
-# Miscellaneous
+# Miscellaneous 小图标，横幅和头条
 favicon: /images/favicon.ico
 webclip: /images/webclip
 brand:   /images/brand.svg
 
-# Jumbotron video & Hero image & Swiper
+# Jumbotron video & Hero image & Swiper视频，大图，滚动展示
 ## Jumbotron video
 video: 
   overlay: false
@@ -37,12 +36,12 @@ swiper:
 ## https://github.com/tscanlin/tocbot
 toc: true
 
-# Slogan
+# Slogan 口号
 slogan: 
-  primary: 焕然一新
-  secondary: Acorn 是一颗适用于中小企业的 Hexo 主题
+  primary: 天津市正达嘉业焊网有限公司
+  secondary: 适合您的焊网加工厂，本公司经营焊网，丝网加工制造业务，欢迎咨询
   archives: 汇聚热点话题 打造创新思路
-  pages: 运维更智能 部署更方便 应用更便捷
+  pages: 我们始终再期待您的联系
   posts: 实践见真知既是最好的解释
 
 # Library
