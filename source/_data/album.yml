@@ -16,28 +16,27 @@
 - name: 样品展示
   en_name: 
   description: 下单提供测试样品，节省客户时间
-  cover: https://android1122.github.io/qiye/images/sample/mydesk.png
+  cover: https://android1122.github.io/qiye/images/sample/2.jpg
   link: 
   preview: 
 
 - name: 装载上车
   en_name: 
   description: 提供物流服务，根据长度和重量精确安排物流车，节省物流费用。
-  cover: /images/sample/3.jpg
-  link: 
+  cover: https://android1122.github.io/qiye/images/sample/3.jpg
   preview: 
 
 - name: 焊网机
   en_name: 
   description: 先进焊网机，自动下料，节省人工成本，日常百吨，满足用户需求
-  cover: /images/sample/4.jpg
+  cover: https://android1122.github.io/qiye/images/sample/4.jpg
   link: 
   preview: 
 
 - name: 堆料场
   en_name: 
   description: 大空间，可以提前下单。
-  cover: /images/sample/5.jpg
+  cover: https://android1122.github.io/qiye/images/sample/5.jpg
   link: 
   preview: 
 
