@@ -10,7 +10,7 @@
   en_name: 
   description: 支持代加工，仓储空间合理
   cover: https://android1122.github.io/qiye/images/sample/1.png
-  link: 
+  link: hhttps://android1122.github.io/qiye/images/sample/1.png
   preview: 
 
 - name: 样品展示
@@ -18,12 +18,13 @@
   description: 下单提供测试样品，节省客户时间
   cover: https://android1122.github.io/qiye/images/sample/2.jpg
   link: 
-  preview: 
+  preview: https://android1122.github.io/qiye/images/sample/2.jpg
 
 - name: 装载上车
   en_name: 
   description: 提供物流服务，根据长度和重量精确安排物流车，节省物流费用。
-  cover: https://android1122.github.io/qiye/images/sample/3.jpg
+  cover: /images/sample/3.jpg
+  link: https://android1122.github.io/qiye
   preview: 
 
 - name: 焊网机
@@ -44,5 +45,5 @@
   en_name: ENGLISH TITLE 6
   description: 披绣闼，俯雕甍，山原旷其盈视，川泽纡其骇瞩。闾阎扑地，钟鸣鼎食之家；舸舰弥津，青雀黄龙之舳。云销雨霁，彩彻区明。落霞与孤鹜齐飞，秋水共长天一色。渔舟唱晚，响穷彭蠡之滨；雁阵惊寒，声断衡阳之浦。
   cover: /images/sample/mydesk.png
-  link: 
+  link:  https://android1122.github.io
   preview: 
